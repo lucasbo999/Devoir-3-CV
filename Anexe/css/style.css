@@ -1,29 +1,39 @@
-img{}
-body{margin-left: auto; background-color: #f5f5f5; margin-bottom: 0%; margin-top: 0%;}
-.conteneur{max-width: 1000px; background-color: white; margin-right: auto; margin-left: auto; padding-bottom: 5px; }
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Styles globaux */
+
+body{margin-left: auto; background-color: #f5f5f5; margin-bottom: 0%; margin-top: 0%; font-family: "raleway", sans-serif;}
+h1, h2,h3{font-family: "lato", sans-serif;}
+.conteneur{max-width: 1160px; background-color: white; margin-right: auto; margin-left: auto; padding-bottom: 5px; }
 
 main{display: flex; justify-items: center;}
-.contenue{margin: 30px;}
-.infos{padding: 30px; background-color:#e3e3e3; margin: 0%;}
+main h2{color: #17abb3;}
 
-h1{margin-bottom: 0%; font-size: 3em;}
-header h2{margin-top:5px;}
-header{display: flex; justify-items: center; align-items: center; margin: 0px; padding: 0px; background-color: #17abb3;}
-.mail_adresse{display: flex; justify-items: center;}
-.tel_permis{display: flex; justify-items: center;}
-.mail,.tel,.adresse,.permis{display: flex; justify-items: center;}
-header img{margin: 15px;}
-.photo_profil{
-    max-width: 200px; width: 100%; 
-    margin-left: 50px !important; margin: 0px; 
-    border: medium ridge white ;  border-radius: 50%;
-}
-.infos_perso{margin-left: auto; margin-right: 200px; color: white; display: flex; flex-direction: column; align-items: center;}
+hr{color: #e3e3e3;}
+
+/* Dates mise à jour et liens réseaux */
+
 footer{ background-color: #17abb3; padding: 6px; }
+
 .reseau{display: flex; justify-content: center;}
 footer img{margin: 3px; padding: 3px; width: 20px; height: 20px;}
+
 footer p{display: flex; justify-content: center; margin: 0%; color: white;}
 
 
-.competences{display: flex; justify-items: center;}
-.competences img{margin: 10px; width: 40px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* Styles globaux */
+
+body{margin-left: auto; background-color: #f5f5f5; margin-bottom: 0%; margin-top: 0%; font-family: "raleway", sans-serif;}
+h1, h2,h3{font-family: "lato", sans-serif;}
+.conteneur{max-width: 1160px; background-color: white; margin-right: auto; margin-left: auto; padding-bottom: 5px; }
+
+main{display: flex; justify-items: center;}
+main h2{color: #17abb3;}
+
+hr{color: #e3e3e3;}
+
+/* Dates mise à jour et liens réseaux */
+
+footer{ background-color: #17abb3; padding: 6px; }
+
+.reseau{display: flex; justify-content: center;}
+footer img{margin: 3px; padding: 3px; width: 20px; height: 20px;}
+
+footer p{display: flex; justify-content: center; margin: 0%; color: white;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

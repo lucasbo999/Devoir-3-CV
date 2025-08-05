@@ -1,0 +1,24 @@
+/* Mes expérience et description */
+
+.contenue{margin: 30px;}
+.contenue h3{margin: 0%;}
+
+.paragraphe{text-indent: 3em; padding-right: 150px;}
+
+.experience{display: flex; flex-direction: row; padding-bottom: 20px; padding: 10px; overflow: hidden; } 
+.experience:hover{background-color:#e3e3e3 ; border-left: 5px solid #17abb3;}
+.experience_i{display: flex; flex-direction: column; }
+
+.date{color: #17abb3; margin-left: auto; align-self: center;}
+.lieu{margin: 0%; font-style: italic;}
+
+/* Mes compétence simple */
+
+.competences{display: flex; flex-direction: row; padding-bottom: 0%;}
+.competences img{margin: 10px; width: 70px; margin-left: auto; margin-top: auto; margin-bottom: auto;}
+
+.langues{display: flex; flex-direction: row;}
+.langues p{margin: 10px; width: 70px; margin-left: auto; margin-top: auto; margin-bottom: auto; margin-right: 20px;}
+
+Ul{list-style-type: square; color: #17abb3;} 
+li span{color: black;}
